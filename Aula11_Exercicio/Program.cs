@@ -12,7 +12,7 @@ namespace Aula11_Exercicio
         {
             double fahr, celsius;
 
-            Console.WriteLine("Informe a temperatura em Fahrenheit: ");
+            Console.Write("Informe a temperatura em Fahrenheit: ");
             fahr = double.Parse(Console.ReadLine());
 
             celsius = (fahr - 32)/1.8;
